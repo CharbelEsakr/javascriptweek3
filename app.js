@@ -1,4 +1,4 @@
-function playRound(playerSelection,computerSelection)
+function playRound()
 {
     function computerPlay () {
         let Array= ["rock","paper","scissors"];
@@ -9,7 +9,7 @@ function playRound(playerSelection,computerSelection)
         let computerchoice = Array[randomValue];
     return computerchoice;
         }
-    let text = window.prompt("Please enter your choice here: ");
+    let text = prompt("Please enter your choice here: ");
     playerSelection = text.toLowerCase();
     computerSelection = computerPlay();
     console.log("here is the player's choice: " + playerSelection + "  ,and here is the computer's choice: " + computerSelection);
