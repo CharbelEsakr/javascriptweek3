@@ -9,8 +9,8 @@ function playRound(playerSelection,computerSelection)
         let computerchoice = Array[randomValue];
     return computerchoice;
         }
-    let text1= window.prompt("Please enter your choice: ")
-    playerSelection = text1.toLowerCase();
+    let text = window.prompt("Please enter your choice here: ");
+    playerSelection = text.toLowerCase();
     computerSelection = computerPlay();
     console.log("here is the player's choice: " + playerSelection + "  ,and here is the computer's choice: " + computerSelection);
     let displayvalueforPlayer;
